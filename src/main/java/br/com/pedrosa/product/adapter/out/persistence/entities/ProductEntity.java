@@ -1,4 +1,4 @@
-package br.com.pedrosa.adapter.out.persistence.entities;
+package br.com.pedrosa.product.adapter.out.persistence.entities;
 
 
 import jakarta.persistence.*;

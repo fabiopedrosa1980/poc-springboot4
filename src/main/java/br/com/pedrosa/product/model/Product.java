@@ -1,4 +1,4 @@
-package br.com.pedrosa.model;
+package br.com.pedrosa.product.model;
 
 public record Product(Long id, String name) {
 }

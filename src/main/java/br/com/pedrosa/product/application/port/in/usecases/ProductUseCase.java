@@ -1,8 +1,8 @@
-package br.com.pedrosa.application.port.in.usecases;
+package br.com.pedrosa.product.application.port.in.usecases;
 
-import br.com.pedrosa.adapter.out.persistence.repository.ProductRepository;
-import br.com.pedrosa.application.port.out.ProductPortOut;
-import br.com.pedrosa.model.Product;
+import br.com.pedrosa.product.adapter.out.persistence.repository.ProductRepository;
+import br.com.pedrosa.product.application.port.out.ProductPortOut;
+import br.com.pedrosa.product.model.Product;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
