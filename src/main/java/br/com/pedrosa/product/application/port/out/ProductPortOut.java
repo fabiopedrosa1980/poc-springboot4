@@ -4,6 +4,6 @@ import br.com.pedrosa.product.model.Product;
 
 import java.util.List;
 
-public interface ProductPortOut {
+public interface ProductPortOut  {
     List<Product> listAll();
 }

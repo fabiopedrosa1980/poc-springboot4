@@ -1,6 +1,7 @@
 package br.com.pedrosa.product.adapter.out.persistence.entities;
 
 
+import br.com.pedrosa.product.model.Product;
 import jakarta.persistence.*;
 
 @Entity
@@ -26,5 +27,9 @@ public class ProductEntity {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Product toProduct(){
+        return new Product(id,name);
     }
 }
