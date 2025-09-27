@@ -1,11 +1,11 @@
 package br.com.pedrosa.product.core.usecases;
 
 import br.com.pedrosa.product.application.port.out.PaymentPortOut;
+import br.com.pedrosa.product.common.anotation.UseCase;
 import org.springframework.resilience.annotation.EnableResilientMethods;
 import org.springframework.resilience.annotation.Retryable;
-import org.springframework.stereotype.Service;
 
-@Service
+@UseCase
 @EnableResilientMethods
 public class PaymentUseCase implements PaymentPortOut {
 
