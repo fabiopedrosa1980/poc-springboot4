@@ -17,7 +17,7 @@ public class AddressController {
         this.addressUseCase = addressUseCase;
     }
 
-    @GetMapping(value = "/address/{postalCode}")
+    @GetMapping(value = "/address/{postalCode}",version = "1")
     public Address findAddress(@PathVariable String postalCode){
         return addressUseCase.findByPostalCode(postalCode);
     }
